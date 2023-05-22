@@ -64,7 +64,10 @@ img{
 }
 
 .righttext{
-  width: 50%;
+  width: 70%;
+  margin: 50px;
+  align-items: center;
+  float: right;
   
 }
 
@@ -72,7 +75,7 @@ img{
   overflow-x: scroll;
   width: 45%;
   height: 100vh;
-
+ float: left;
 }
 
 .Vaudeville{
@@ -94,7 +97,6 @@ float: left;
 }
 
 .poster2{
-
 float: left;
 width: 400px;
 height: 200px;
@@ -138,11 +140,6 @@ float: left
   height:100vh;
   }
 
-  .print{
-
-  }
-
-
 
 
   @media print{
@@ -165,9 +162,7 @@ float: left
    .rightpoem{
   display: none;
 }
-.print{
-  display: none;
-}
+  }
 
 
 
